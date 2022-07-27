@@ -38,7 +38,7 @@ const App = () => {
   // State management for anecdote array
   const [selected, setSelected] = useState(0);
 
-  // State management for registered votes
+  // State management for registered votes also creates a new typed array of 8 bytes
   const [votes, setVotes] = useState(new Uint8Array(anecdotes.length));
   // console.log(votes);
 
